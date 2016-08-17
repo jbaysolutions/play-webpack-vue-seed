@@ -1,0 +1,11 @@
+@()
+
+@main("Websockets") {
+    <div id="websocketsContainer">
+        <button class="btn btn-primary" @@click="addItem">Add more</button>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info">test</li>
+            <li v-for="item in items" class="list-group-item">{{item}}</li>
+        </ul>
+    </div>
+}

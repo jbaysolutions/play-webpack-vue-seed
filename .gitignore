@@ -1,0 +1,16 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+/node_modules
+out
+conf/mail.conf
+conf/LOCAL/
+documentation/
+node_modules
+
+conf/application.conf
