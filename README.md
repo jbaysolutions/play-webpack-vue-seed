@@ -1,5 +1,13 @@
 # Play Framework seed project with webpack and vue.js
 
+## Overview
+
+This is a seed project using Play and webpack to build the fronted with vue.js.
+When activator is launched, an instance of webpack is also stared. webpack will watch for changes in the fronted js/vue files and bundle them on a single javascript file placed in the public/javascripts folder of the play app
+
+When running `activator dist`, webpack will minify and uglify the javascript file.
+
+
 ## Requirements
 
 * JDK >= 1.8
