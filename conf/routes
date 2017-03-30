@@ -4,8 +4,8 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
-GET     /websockets                 controllers.HomeController.websockets
-GET     /ws                         controllers.HomeController.socket
+#GET     /websockets                 controllers.HomeController.websockets
+#GET     /ws                         controllers.HomeController.socket
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

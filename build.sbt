@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
 
 doc in Compile <<= target.map(_ / "none")
 
-playRunHooks <+= baseDirectory.map(Webpack.apply)
+//playRunHooks <+= baseDirectory.map(Webpack.apply)
 
 pipelineStages := Seq(digest, gzip)
 

@@ -1,0 +1,42 @@
+{
+  "name": "play-webpack-vue-seed",
+  "version": "0.2.0",
+  "description": "Seed project",
+  "keywords": [],
+  "author": "Gustavo Santos (gustavo.santos@jbaysolutions.com) JBay Solutions (http://www.jbaysolutions.com)",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^4.1.8",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "ejs": "^2.4.1",
+    "eslint": "^3.14.1",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "imports-loader": "^0.6.5",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^1.2.1",
+    "vue": "^1.0.28",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-loader": "^8.0.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "license": "MIT"
+}
