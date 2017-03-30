@@ -20,9 +20,9 @@ object Webpack {
       override def afterStarted(addr: InetSocketAddress) = {
         process = Some(
           if(System.getProperty("os.name").toUpperCase().indexOf("WIN") >= 0) {
-            Process("webpack.cmd --watch", base / "frontend").run
+            Process("cmd /c node node_modules/webpack/bin/webpack.js --watch", base / "frontend").run
           } else {
-            Process("webpack --watch", base / "frontend").run
+            Process("node node_modules/webpack/bin/webpack.js --watch", base / "frontend").run
           }
         )
 
